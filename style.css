@@ -1,0 +1,28 @@
+@media (min-width: 800px) {
+  ul {
+    display: flex;
+    width: 80px;
+    padding: 50px;
+
+    cursor: pointer;
+    list-style-type: none;
+    gap: 150px;
+    object-fit: contain;
+  }
+}
+
+body {
+  background-color: #edeade;
+}
+
+.categorylist a {
+  text-decoration: none;
+  padding: 2em;
+  color: white;
+  background-color: #949394;
+}
+
+.categorylist a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px #807f80;
+}

@@ -3,3 +3,11 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1em;
 }
+
+@media (min-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
